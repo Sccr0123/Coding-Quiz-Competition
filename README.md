@@ -28,7 +28,7 @@ THEN I can save my initials and score
 
 The following animation demonstrates the application functionality:
 
-![Demo Gif](./assets/images-readme/04-web-apis-homework-demo.gif)
+![Demo Gif](./assets/images/ReadME.gif)
 
 ### Review
 
