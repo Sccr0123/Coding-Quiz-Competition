@@ -9,6 +9,10 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
