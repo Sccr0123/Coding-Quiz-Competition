@@ -7,7 +7,7 @@ var option4 = document.querySelector("#btn4");
 
 var questions = [
 	{
-        title: "Commonly Used Data Types DO Not Include: ",
+        title: "Commonly Used Data Types Do Not Include: ",
         answer1: "1. Strings", answer2: "2. Booleans", answer3: "3. Alerts", answer4: "4. Numbers",
 		correct: 3,
 	},
@@ -63,44 +63,44 @@ getScore = function () {
 checkOne = function () {
     console.log(questions[questionNum].correct);
     if (questions[questionNum].correct === 1) {
-        alert("Correct");
-        nextQuestion();
+        btn1.textContent = "Correct!";
+        setTimeout(nextQuestion, 1000);
     } else {
-        alert("Incorrect");
-        nextQuestion();
+        btn1.textContent = "Incorrect!";
+        setTimeout(nextQuestion, 1000);
     };
 };
 
 checkTwo = function () {
     console.log(questions[questionNum].correct);
     if (questions[questionNum].correct === 2) {
-        alert("Correct");
-        nextQuestion();
+        btn2.textContent = "Correct!";
+        setTimeout(nextQuestion, 1000);
     } else {
-        alert("Incorrect");
-        nextQuestion();
+        btn2.textContent = "Incorrect!";
+        setTimeout(nextQuestion, 1000);
     };
 };
 
 checkThree = function () {
     console.log(questions[questionNum].correct);
     if (questions[questionNum].correct === 3) {
-        alert("Correct");
-        nextQuestion();
+        btn3.textContent = "Correct!";
+        setTimeout(nextQuestion, 1000);
     } else {
-        alert("Incorrect");
-        nextQuestion();
+        btn3.textContent = "Incorrect!";
+        setTimeout(nextQuestion, 1000);
     };
 };
 
 checkFour = function () {
 	console.log(questions[questionNum].correct);
 	if (questions[questionNum].correct === 4) {
-		alert("Correct");
-		nextQuestion();
+		btn4.textContent = "Correct!";
+		setTimeout(nextQuestion, 1000);
 	} else {
-		alert("Incorrect");
-		nextQuestion();
+		btn4.textContent = "Incorrect!";
+		setTimeout(nextQuestion, 1000);
     };
 };
 
