@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<title>Coding Quiz</title>
+	</head>
+
+	<body>
+		<header>
+			<a href="./high-score.html">
+				<div>
+					<p>View High Scores</p>
+				</div>
+			</a>
+
+			<div>
+				<p></p>
+			</div>
+		</header>
+
+		<main class="page-content" id="final-score">
+			<h2>Final Score:</h2>
+
+			<p id="score">Placeholder</p>
+
+			<form id="playerForm" onsubmit="return false">
+				<input type="text" id="pName" name="pName" placeholder="Name" />
+
+				<input type="submit" />
+			</form>
+		</main>
+
+		<script src="./assets/javascript/score.js"></script>
+	</body>
+</html>
