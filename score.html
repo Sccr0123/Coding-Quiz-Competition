@@ -17,29 +17,22 @@
 			</a>
 
 			<div>
-				<p>Timer: 0</p>
+				<p></p>
 			</div>
 		</header>
 
-		<main class="page-content" id="high-score">
-			<h2>High Scores</h2>
-			<p class = score-list id="score1">
-				Placeholder
-			</p>
-			<p class = score-list id="score2">
-				Placeholder
-			</p>
-			<p class = score-list id="score3">
-				Placeholder
-			</p>
-			<p class = score-list id="score4">
-				Placeholder
-			</p>
-			<p class = score-list id="score5">
-				Placeholder
-			</p>
+		<main class="page-content" id="final-score">
+			<h2>Final Score:</h2>
+
+			<p id="score">Placeholder</p>
+
+			<form id="playerForm" onsubmit="return false">
+				<input type="text" id="pName" name="pName" placeholder="Name" />
+
+				<input type="submit" />
+			</form>
 		</main>
 
-		<script src="./assets/javascript/highscore.js"></script>
+		<script src="./assets/javascript/score.js"></script>
 	</body>
 </html>
