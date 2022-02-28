@@ -21,6 +21,7 @@ var scores = [
 		score: "",
 	}
 ];
+
 scores[0] = document.querySelector("#score1");
 scores[1] = document.querySelector("#score2");
 scores[2] = document.querySelector("#score3");

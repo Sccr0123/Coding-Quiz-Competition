@@ -94,7 +94,7 @@ checkOne = function () {
 		btn1.textContent = "Incorrect!";
 		timeLeft = timeLeft - 10;
 		setTimeout(nextQuestion, 1000);
-	}
+	};
 };
 
 checkTwo = function () {
@@ -136,7 +136,7 @@ timer = function () {
 			timerOutput.innerHTML = "<p>Timer: " + timeLeft + "</p>";
 			timeLeft--;
 		} else {
-			// timerOutput.innerHTML = "<p>Timer: 0</p>";
+			timerOutput.innerHTML = "<p>Timer: 0</p>";
 			getScore(timeLeft);
 		}
 	}, 1000);
